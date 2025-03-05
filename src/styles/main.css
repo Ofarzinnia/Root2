@@ -1,0 +1,27 @@
+body   {
+    background-color: hwb(0 79% 18% / 0.75);
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+p2  {
+    text-decoration: double;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0;
+    padding-top: 50px;
+  }
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 150px 0 0; /* Adjust size by changing 100px */
+    border-color: rgb(126, 0, 0) transparent transparent transparent; /* Change color here */
+    transform: rotate(180deg); 
+  }
